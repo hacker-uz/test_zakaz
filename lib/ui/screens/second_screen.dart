@@ -57,9 +57,12 @@ class _SecondScreenState extends State<SecondScreen> {
               fit: BoxFit.fill,
             ),
           ),
-          Text(
-            "Произвольный текст как заголовок",
-            style: TextStyle(fontSize: 25),
+          Padding(
+            padding: const EdgeInsets.all(5.0),
+            child: Text(
+              "Произвольный текст как заголовок",
+              style: TextStyle(fontSize: 25),
+            ),
           ),
           Expanded(
             child: Padding(
